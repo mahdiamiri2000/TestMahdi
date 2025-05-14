@@ -1,5 +1,10 @@
+import java.util.Scanner;
+
 public class TestCode {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Scanner input = new Scanner(System.in);
+
+        int inputNumber = input.nextInt();
+        System.out.println("Your input is: " + inputNumber);
     }
 }
